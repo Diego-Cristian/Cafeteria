@@ -17,9 +17,9 @@ html {
 	box-sizing: border-box;
 }
 
-/* ********************************** */
-/*             UTILIDADES             */
-/* ********************************** */
+
+/*    UTILIDADES    */
+
 .container {
 	max-width: 120rem;
 	margin: 0 auto;
@@ -31,9 +31,9 @@ html {
 	font-size: 3rem;
 }
 
-/* ********************************** */
-/*               HEADER               */
-/* ********************************** */
+
+/*    HEADER    */
+
 .container-hero {
 	background-color: var(--background-color);
 }
@@ -102,7 +102,7 @@ html {
 	flex-direction: column;
 }
 
-/* ************* NAVBAR ************* */
+/* NAVBAR  */
 .container-navbar {
 	background-color: var(--primary-color);
 }
@@ -198,9 +198,9 @@ html {
 	color: #fff;
 }
 
-/* ********************************** */
-/*               BANNER               */
-/* ********************************** */
+
+/*  BANNER   */
+
 .banner {
 	background-image: linear-gradient(100deg, #000000, #00000020),
 		url('img/banner.jpg');
@@ -240,16 +240,15 @@ html {
 	border-radius: 3rem;
 }
 
-/* ********************************** */
-/*            MAIN CONTENT            */
-/* ********************************** */
+/*   MAIN CONTENT   */
+
 .main-content {
 	background-color: var(--background-color);
 }
 
-/* ********************************** */
-/*              FEATURES              */
-/* ********************************** */
+
+/*   FEATURES     */
+
 .container-features {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -290,9 +289,9 @@ html {
 	font-weight: 500;
 }
 
-/* ********************************** */
-/*             CATEGORIES             */
-/* ********************************** */
+
+/*   CATEGORIES  */
+
 
 .top-categories {
 	display: flex;
@@ -369,9 +368,9 @@ html {
 	color: var(--primary-color);
 }
 
-/* ********************************** */
-/*            TOP PRODUCTS            */
-/* ********************************** */
+
+/*    TOP PRODUCTS    */
+
 .top-products {
 	display: flex;
 	flex-direction: column;
@@ -559,9 +558,8 @@ html {
 	margin-left: 0.5rem;
 }
 
-/* ********************************** */
-/*               GALLERY              */
-/* ********************************** */
+/*      GALLERY       */
+
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -697,9 +695,9 @@ html {
 	background-color: var(--dark-color);
 }
 
-/* ********************************** */
-/*               FOOTER               */
-/* ********************************** */
+
+/* FOOTER */
+
 
 .footer {
 	background-color: var(--primary-color);
@@ -867,9 +865,9 @@ html {
 	font-size: 1.6rem;
 }
 
-/* ********************************** */
-/*       MEDIA QUERIES -- 768px       */
-/* ********************************** */
+
+/*  MEDIA QUERIES -- 768px  */
+
 @media (max-width: 768px) {
 	html {
 		font-size: 55%;
@@ -970,9 +968,9 @@ html {
 	}
 }
 
-/* ********************************** */
-/*       MEDIA QUERIES -- 468px       */
-/* ********************************** */
+
+/*   MEDIA QUERIES -- 468px  */
+
 @media (max-width: 468px) {
 	html {
 		font-size: 42.5%;
