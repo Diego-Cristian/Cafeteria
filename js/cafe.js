@@ -19,3 +19,17 @@ function validarNombre(nombre){
         return true;
     }
 }
+function ValidarApellido (apellido){
+    if ( (apellido == " ") || (apellido.length <3 )){
+        return false;
+    }else {
+        return true;
+    }
+}
+function ValidarSegundoNombre (segundonombre){
+    if ( (segundonombre == " ") || (segundonombre.length <3 )  ){
+        return false;
+    }else {
+        return false;
+    }
+}
